@@ -1,3 +1,29 @@
+## My Solution
+in the main folder there are 4 fully automatic scripts:
+* plot1.R
+* plot2.R
+* plot3.R
+* plot4.R
+
+They share most of the code; The shared part downloads data, saves it in the *./data* sub-directory 
+, unzips the downloaded archive, loads into temporary data.table then copies the relevant
+observations to the smaller dataframe (I've failed trying to convert time in the data.table)
+Eventualy does conversions and creates and saves required png files:
+
+plot1:4.png 
+
+in the **./figure** subdirectory.
+
+Plotting one diagram takes roughly 1.5 min (depending on the speed of the Internet).
+
+Best Regards,
+
+Peter K.
+:-)
+
+
+
+
 ## Introduction
 
 This assignment uses data from
